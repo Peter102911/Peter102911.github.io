@@ -1,0 +1,74 @@
+body {
+    background-color:#97FEED;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #35A29F;
+}
+
+#banner {
+    background-color: #35A29F;
+    color: #97FEED;
+    padding: 30px;
+    background-image: url("../images/qwe.jpg");
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+.menuitem {
+    width : 125px;
+    float : left; 
+    background-color: #176B87;
+    border-radius: 15px;
+    list-style-type: none;
+    margin:4px;
+    padding: 10px;
+    text-align: center;
+    cursor:pointer;
+}
+
+#menulist li a {
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+}
+#section-about{
+    background-color: #35A29F;
+
+}
+.centerimage{
+    
+}
+#section-services{
+    background-color: #4ecafc;
+    text-align:justify;
+    float:center;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    color:darkblue;
+    
+}
+#section-resume{
+    background-color: #4ecafc;
+    text-align: justify;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    color:darkblue;
+}
+#section-work{
+    background-color: #4ecafc;
+    text-align:justify;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    color:darkblue;
+}
